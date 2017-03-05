@@ -1,0 +1,3 @@
+---
+memcached_init_src: usr+lib+systemd+system+memcached.service
+memcached_init_dst: /usr/lib/systemd/system/{{ item.key }}.service

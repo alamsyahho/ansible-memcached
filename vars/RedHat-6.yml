@@ -1,0 +1,3 @@
+---
+memcached_init_src: etc+init.d+memcached
+memcached_init_dst: /etc/init.d/{{ item.key }}

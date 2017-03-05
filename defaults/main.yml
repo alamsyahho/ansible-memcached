@@ -1,0 +1,14 @@
+---
+memcached_list:
+  memcached-11211:
+    port: 11211
+    user: memcached
+    maxconn: 1024
+    cachesize: 128
+    options:
+  memcached-11212:
+    port: 11212
+    user: memcached
+    maxconn: 1024
+    cachesize: 128
+    options:

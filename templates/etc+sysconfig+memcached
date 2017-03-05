@@ -1,0 +1,5 @@
+PORT="{{ item.value.port }}"
+USER="{{ item.value.user }}"
+MAXCONN="{{ item.value.maxconn }}"
+CACHESIZE="{{ item.value.cachesize }}"
+OPTIONS="{{ item.value.options }}"
